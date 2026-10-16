@@ -1,0 +1,5 @@
+@media(max-width:1024px){.car{--per:3}.car.p2{--per:2}.grid4,.pgrid{grid-template-columns:repeat(3,1fr)}.grid3{grid-template-columns:repeat(2,1fr)}.sgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){.burger{display:block}.menu{position:absolute;top:68px;left:0;right:0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:8px 4%;box-shadow:0 10px 20px #0002;display:none}.menu.open{display:flex}.menu a{padding:12px 0;border-bottom:1px solid #eef1f5}.menu .btn{margin:10px 0;width:100%}
+.burger[aria-expanded=true] i:nth-child(1){transform:translateY(7px) rotate(45deg)}.burger[aria-expanded=true] i:nth-child(2){opacity:0}.burger[aria-expanded=true] i:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.hgrid,.cgrid,.mbox,.fgrid{grid-template-columns:1fr}.car,.car.p3,.car.p2{--per:2}.grid4,.pgrid{grid-template-columns:repeat(2,1fr)}.sec{padding:52px 0}.cb.prev{left:-8px}.cb.next{right:-8px}}
+@media(max-width:560px){.car,.car.p3,.car.p2{--per:1}.grid3,.grid4,.pgrid{grid-template-columns:1fr}.pgrid{grid-template-columns:repeat(2,1fr)}.btns .btn{width:100%;text-align:center}.sgrid b{font-size:1.5rem}.big b{font-size:2.2rem}}
